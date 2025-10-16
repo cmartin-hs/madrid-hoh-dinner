@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HubSpot Christmas Dinner — Decision Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎄 HubSpot Christmas Dinner — Decision Board</h1>
+    <p>Date: Thu, Dec 11, 2025 · Attendees: 50–60 · Budget: $5,000 (~€4,600) · Window: 17:30–22:00</p>
+  </header>
+
+  <section class="controls">
+    <input id="search" type="search" placeholder="Search venue, neighborhood or notes…">
+    <label>Private
+      <select id="privateFilter">
+        <option value="">Any</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+    </label>
+    <label>Max €/pp
+      <input id="maxPrice" type="number" min="0" step="1" placeholder="e.g. 60">
+    </label>
+    <label>Availability
+      <select id="availFilter">
+        <option value="">Any</option>
+        <option value="Confirmed">Confirmed</option>
+        <option value="Pending">Pending</option>
+      </select>
+    </label>
+    <button id="reset">Reset</button>
+  </section>
+
+  <section id="cards" class="cards"></section>
+
+  <footer>
+    <p>Built for HubSpot internal planning · Shareable via GitHub Pages</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
