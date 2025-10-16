@@ -39,7 +39,7 @@
       "scoreLocation": 10,
       "scoreMenu": 9,
       "scoreExtras": 8,
-      "weighted": "=(AE2*Settings!B2+AF2*Settings!B3+AG2*Settings!B4+AH2*Settings!B5+AI2*Settings!B6+AJ2*Settings!B7)/100"
+      "weighted": null
     },
     {
       "venue": "Restaurante Caná - Centro Nacional de Golf",
@@ -80,7 +80,7 @@
       "scoreLocation": 7,
       "scoreMenu": 9,
       "scoreExtras": 8,
-      "weighted": "=(AE3*Settings!B2+AF3*Settings!B3+AG3*Settings!B4+AH3*Settings!B5+AI3*Settings!B6+AJ3*Settings!B7)/100"
+      "weighted": null
     },
     {
       "venue": "Berria Wine Bar",
@@ -115,7 +115,7 @@
       "scoreLocation": 10,
       "scoreMenu": 9,
       "scoreExtras": 7,
-      "weighted": "=(AE4*Settings!B2+AF4*Settings!B3+AG4*Settings!B4+AH4*Settings!B5+AI4*Settings!B6+AJ4*Settings!B7)/100"
+      "weighted": null
     },
     {
       "venue": "Taberna Bienmesabe — Salón Garabito (Mirasierra)",
@@ -153,7 +153,7 @@
       "scoreLocation": 7,
       "scoreMenu": 7,
       "scoreExtras": 6,
-      "weighted": "=(AE5*Settings!B2+AF5*Settings!B3+AG5*Settings!B4+AH5*Settings!B5+AI5*Settings!B6+AJ5*Settings!B7)/100"
+      "weighted": null
     },
     {
       "venue": "El Perro y la Galleta – Castelló",
@@ -188,7 +188,7 @@
       "scoreLocation": 10,
       "scoreMenu": 8,
       "scoreExtras": 7,
-      "weighted": "=(AE6*Settings!B2+AF6*Settings!B3+AG6*Settings!B4+AH6*Settings!B5+AI6*Settings!B6+AJ6*Settings!B7)/100"
+      "weighted": null
     },
     {
       "venue": "Four Seasons – Dani Brasserie",
@@ -226,7 +226,7 @@
       "scoreLocation": 10,
       "scoreMenu": 10,
       "scoreExtras": 7,
-      "weighted": "=(AE7*Settings!B2+AF7*Settings!B3+AG7*Settings!B4+AH7*Settings!B5+AI7*Settings!B6+AJ7*Settings!B7)/100"
+      "weighted": null
     },
     {
       "venue": "GramaBar",
@@ -261,7 +261,7 @@
       "scoreLocation": 8,
       "scoreMenu": 7,
       "scoreExtras": 7,
-      "weighted": "=(AE8*Settings!B2+AF8*Settings!B3+AG8*Settings!B4+AH8*Settings!B5+AI8*Settings!B6+AJ8*Settings!B7)/100"
+      "weighted": null
     },
     {
       "venue": "Sákale Madrid",
@@ -296,7 +296,48 @@
       "scoreLocation": 8,
       "scoreMenu": 7,
       "scoreExtras": 7,
-      "weighted": "=(AE9*Settings!B2+AF9*Settings!B3+AG9*Settings!B4+AH9*Settings!B5+AI9*Settings!B6+AJ9*Settings!B7)/100"
+      "weighted": null
+    },
+    {
+      "venue": "Grupo Paraguas — Portfolio (varios espacios)",
+      "website": "https://grupoparaguas.com",
+      "contactName": "Alejandra Ramírez",
+      "contactEmail": "alejandra.ramirez@grupoparaguas.com",
+      "contactPhone": null,
+      "address": null,
+      "neighborhood": "Serrano / Puerta de Alcalá / Jorge Juan / La Moraleja",
+      "privateSpace": "Yes (exclusive/private rooms)",
+      "availability": "Pending confirmation",
+      "availabilityNotes": "Multiple venues (Amazónico Club de Vinos, Jungle Jazz Club, The Library, Origen, Áurea, Ten con Ten, El Paraguas). Capacities up to ~130 cocktail.",
+      "format": "Cocktail or Dinner (premium)",
+      "menuOptions": "Tailored menus per venue (premium gastronomy)",
+      "pricePP": {
+        "min": 80.0,
+        "max": 120.0
+      },
+      "drinksIncluded": "To be defined per venue (wine/beer/softs usually available)",
+      "openBar1h": null,
+      "openBar2h": null,
+      "roomFee": "Depends on venue; often included with minimum spend",
+      "extrasFees": "Decor, DJ/entertainment, AV possible",
+      "vatIncluded": "Yes",
+      "serviceIncluded": "Yes",
+      "dietary": "Yes — customized menus",
+      "avMusic": "Yes — Bose/PA, DJ, stage options depending on venue",
+      "paymentTerms": "To be confirmed",
+      "cancellation": "To be confirmed",
+      "paxQuoted": "Up to 130 cocktail (venue dependent)",
+      "estTotal": {
+        "min": 4.8,
+        "max": 120.0
+      },
+      "scoreBudget": 6,
+      "scoreAvailability": 8,
+      "scoreSpace": 10,
+      "scoreLocation": 10,
+      "scoreMenu": 10,
+      "scoreExtras": 10,
+      "weighted": null
     }
   ]
 }
